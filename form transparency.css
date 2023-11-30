@@ -1,0 +1,39 @@
+body{
+    background-image: url(img/drain.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10px;
+    box-sizing: border-box;
+}
+form{
+    background: rgba(255, 255, 255, 0.3);
+    width: 500px;
+    padding: 10px;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+input{
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        margin: 20px;
+        border: none;
+        outline: none;
+        border-radius: 100px;
+        background-color: rgba(255, 255, 255, 0.3);
+        box-shadow: inset 0px 0px 20px white;
+        width: 400px;
+    }
+    button{
+        padding: 10px;
+        margin: 20px;
+        border: none;
+        outline: none;
+        border-radius: 100px;
+        background-color: rgba(255, 255, 255, 0.3);
+        box-shadow: inset 0px 0px 20px white;
+        width: 400px;
+    }
+    
+    

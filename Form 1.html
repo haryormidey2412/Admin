@@ -1,0 +1,256 @@
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <style>
+            form{
+                background: rgb(255, 230, 100);
+                box-shadow: inset 0px 0px 20px black;
+                box-sizing: border-box;
+                padding: 20px;
+            }
+            input[type="text"]{
+                background: white;
+            }
+            table {
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+        <meta charset="UTF-8" />
+        <title>Form classwork</title>
+    </head>
+
+    <body>
+        <ul>
+            <li><a href="nested.html">Home</a></li><br>
+            <li><a href="Assignment 1.html">About</a></li><br>
+            <li><a href="index.html">Contact</a></li><br>
+            <li><a href="form transparency.html">Service</a></li><br>
+            <li><a href="Form 1.html">Register</a></li><br>
+            <li><a href="image frame assignmet.html">Products</a></li><br>
+        <h1 style="text-align: center;">Form & Table</h1>
+        <form action="">
+            <label for="name">Username:</label>
+            <input type="text" id="" placeholder="input username" autofocus required> <br> <br>
+            <label for="name">Password:</label>
+            <input type="text" id=""> <br> <br>
+            <label for="name">City of Employment</label>
+            <input type="text" id=""> <br> <br>
+
+
+            <label for="name">Web server</label>
+            <select name="" id="">
+                <option value="">Choose a web side</option>
+            </select> <br><br>
+
+
+            <label for="name">Please specify your role</label> <br>
+            <input type="radio">Admin <br> <br>
+            <input type="radio">Engineer <br> <br>
+            <input type="radio">Manager <br> <br>
+            <input type="radio">Guest <br> <br>
+            </select> <br> <br>
+
+            <label for="name">Single Sign-On to the following</label> <br>
+            <input type="checkbox" id="">
+            <label for="name">Mail</label> <br>
+            <input type="checkbox" id="">
+            <label for="name">Payroll</label> <br>
+            <input type="checkbox" id="">
+            <label for="name">Self-Service</label> <br> <br>
+
+            <label for="name">Write a short note about yourself</label> <br> <br>
+            <textarea id="" rows="20" cols="60">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem placeat tempore laborum consequatur in. Repellendus atque non voluptatum ab aliquam quaerat quam commodi, laudantium corrupti, molestiae exercitationem consectetur odit id.
+            </textarea><br> <br>
+
+            <fieldset style="width: 20%">
+                <legend>Personal Information</legend>
+                <!-- <label for="name">First name</label> -->
+                <input type="text" placeholder="village">
+                <!-- <label for="name">First Name</label> -->
+                <input type="text" id="" placeholder="weer"> <br>
+                <!-- <label for="name">Middle name</label> -->
+                <input type="text" id="" placeholder="my"> <br>
+                <label for="number">Phone Number</label>
+                <input type="number" id=""> <br>
+            </fieldset>
+        </form> <br>
+
+        
+
+        <table border="2" cellpadding="7">
+            <tr>
+                <th colspan="6">Timetable</th>
+            </tr>
+            <tr>
+                <th rowspan="8">Hours</th>
+                <td><b>Mon</b></td>
+                <td><b>Tue</b></td>
+                <td><b>Wed</b></td>
+                <td><b>Thur</b></td>
+                <td><b>Fri</b></td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <td>Social</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Social</td>
+                <td>Sports</td>
+            </tr>
+
+            <tr>
+                <th colspan="6">Lunch</th>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <th colspan="6">Break</th>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td rowspan="2">Project</td>
+            </tr>
+
+            <tr>
+                <td>Social</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Social</td>
+            </tr>
+        </table> <br> <br>
+
+        <h1 style="text-align: center;">Table Lists</h1>
+            <table border="5" cellpadding="10">
+                <tr><br><br>
+                    <th colspan="2"><b>Title goes here</b></th>
+                    <td><b>A</b></td>
+                    <td colspan="2"><b>B</b></td>
+                    <!-- <td>C</td> -->
+                </tr>
+                <tr>
+                    <td rowspan="3"><b>C</b></td>
+                    <td><b>D</b></td>
+                    <td><b>E</b></td>
+                    <td><b>F</b></td>
+                    <td><b>G</b></td>
+                </tr>
+                <tr>
+                    <td><b>C</b></td>
+                    <td><b>H</b></td>
+                    <td colspan="2"><b>I</b></td>
+                    <td rowspan="2"><b>J</b></td>
+                </tr>
+                <tr>
+                    <td><b>K</b></td>
+                    <td><b>L</b></td>
+                    <td><b>M</b></td>
+                </tr>
+                <tr>
+                    <th><b>N</b></th>
+                    <th colspan="4"><b>O</b></th>
+                </tr>
+
+            </table> <br> <br>
+
+            <table border="2px" cellpadding="10"> <br> <br>
+                <tr>
+                    <th>Text</th>
+                    <th>Text</th>
+                    <th colspan="2">Text</th>
+                    <th colspan="2">Text</th>
+                </tr>
+                <tr>
+                    <td><sup>Text</sup></td>
+                    <td><sub>Text</sub></td>
+                    <td colspan="2">Text</td>
+                    <td>Text</td>
+                    <td>Text</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Text</td>
+                    <td rowspan="2"><sup>Text</sup></td>
+                    <td><sup>Text</sup></td>
+                    <td><sup>Text</sup></td>
+                    <td>Text</td>
+                    <td>Text</td>
+                </tr>
+                <tr>
+
+                    <td rowspan="2">Text</td>
+                    <td rowspan="2">Text</td>
+                    <td>Text</td>
+                    <td>Text</td>
+                </tr>
+
+                <tr>
+                    <td><sub>Text</sub></td>
+                    <td>Text</td>
+                    <td><sup>Text</sup></td>
+                    <td><sup>Text</sup></td>
+                </tr>
+            </table> <br> <br>
+
+        </table><br><br>
+
+        <table border="2" cellpadding="10">
+            <tr>
+                <th rowspan="2">Days</th>
+                <th rowspan="2">Venue</th>
+                <td>First Session</td>
+                <td>Second Session</td>
+                <td>Third Session</td>
+            </tr>
+            <tr>
+                <td>First Session</td>
+                <td>Second Session</td>
+                <td>Third Session</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">Monday</th>
+                <th>Room 1</th>
+                <td>First Session</td>
+                <td>Second Session</td>
+                <td>Third Session</td>
+            </tr>
+            <tr>
+                <th>Room 2</th>
+                <td>First Session</td>
+                <td>Second Session</td>
+                <td>Third Session</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">Tuesday</th>
+                <th>Room 1</th>
+                <td>First Session</td>
+                <td>Second Session</td>
+                <td>Third Session</td>
+            </tr>
+            <tr>
+                <th>Room 2</th>
+                <td>First Session</td>
+                <td>Second Session</td>
+                <td>Third Session</td>
+            </tr>
+        </table> <br> <br>
+    </body>
+
+    </html>
