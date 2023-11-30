@@ -4,6 +4,7 @@ body{
     background-size: contain;
     width: 10px;
     box-sizing: border-box;
+
 }
 form{
     background: rgba(255, 255, 255, 0.3);
