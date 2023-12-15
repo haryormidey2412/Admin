@@ -1,0 +1,26 @@
+legend{
+        text-align: center;
+}
+body{
+    background: rgba(10, 10, 10, 0.5);
+    width: fit-content;
+}
+.eee{
+    background: red;
+}
+.e{
+    background: white;
+}
+.r{
+    background: black;
+}
+table{
+    border-top: 10px inset goldenrod;
+    border-right: 10px inset goldenrod;
+    border-bottom: 10px inset goldenrod;
+    border-left: 10px inset goldenrod;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: inset 0px 0px 10px black;
+    width: 100px;
+    border-collapse: collapse;
+}

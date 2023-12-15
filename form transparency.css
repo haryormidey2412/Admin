@@ -1,8 +1,7 @@
 body{
     background-image: url(img/drain.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    width: 10px;
+    background-size: cover;
     box-sizing: border-box;
 
 }
